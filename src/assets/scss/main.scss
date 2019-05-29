@@ -1,0 +1,16 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import "buttons";
+
+a:hover {
+  text-decoration: none;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.modal-play {
+  padding: 1.25em 0 0 0;
+  display: inline-block;
+}

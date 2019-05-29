@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import Component from 'components/Component';
-import '../node_modules/bootstrap/scss/bootstrap.scss';
+import 'assets/scss/main.scss';
 
 class App extends React.Component<{}, {}> {
   public render() {
@@ -19,7 +19,8 @@ class App extends React.Component<{}, {}> {
                   </div>
                   <div className='modal-play'>
                     <a className='cta-button' href='/th-en/insights/into-the-new' target='' role='button'>
-                      <div className='btn btn-primary front ucase'>LEARN MORE</div>
+                      <div className='btn btn-primary front ucase text-bold'>LEARN MORE</div>
+                      <div className="behind" aria-hidden="true">Model.CallToActionText</div>
                     </a>
                   </div>
                 </div>

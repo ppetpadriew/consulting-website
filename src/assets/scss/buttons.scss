@@ -1,0 +1,44 @@
+.btn {
+  border-radius: 0;
+  padding: .938rem .938rem;
+  font-size: .875rem;
+  line-height: 1rem;
+  color: #fff;
+  min-width: 13.4rem;
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+  border: 0;
+  white-space: nowrap;
+  &:hover {
+    transform: translate(-5px, -5px);
+  }
+}
+
+.front {
+  z-index: 10;
+  transition: all .3s ease-out;
+}
+
+.behind {
+  position: relative;
+  z-index: -1;
+  color: $gray-500;
+  background: $gray-500;
+  margin-right: -.4rem;
+  margin-top: -2.06rem;
+  margin-left: .875rem;
+  padding: .938em .938em;
+  font-size: .875em;
+  line-height: 1em;
+  opacity: 0.5;
+}
+
+a[role=button] {
+  position: relative;
+  z-index: 10;
+  padding-top: 15px;
+  border-radius: 0;
+  transition: all .3s ease-out;
+  display: block;
+}
