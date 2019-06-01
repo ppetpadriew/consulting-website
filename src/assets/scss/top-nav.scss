@@ -1,0 +1,48 @@
+nav {
+  display: block;
+}
+
+.primary-nav {
+  display: inline-block;
+  width: auto;
+  padding-left: 15px;
+  height: 4.375em;
+}
+
+#header-topnav {
+  padding: 0;
+  width: 100%;
+  height: 3.125em;
+  border-bottom: .063em solid #e3e3e3;
+}
+
+.navbar-default {
+  background-color: #fff;
+  /* border-color: #e7e7e7; */
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  padding: 0 15px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar {
+  position: relative;
+  min-height: 3.125;
+  border: 1px solid transparent;
+}
+
+#block-header #header-topnav .navbar-background {
+  height: 4.313em;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1031;
+}
